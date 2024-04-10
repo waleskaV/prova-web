@@ -1,0 +1,189 @@
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  padding: 1vw 2vw 3vw 2vw;
+  background-color: #f2f2f2;
+}
+
+.container {
+  border-radius: 5px;
+  padding: 1vw 3vw 3vw 3vw;
+  background-color: #ffffff;
+}
+
+.barra-navegacao {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 4vw;
+  border-bottom: solid 1px #f2f2f2;
+}
+
+.titulo {
+  display: flex;
+  align-items: center;
+}
+
+.titulo-logo-inicio {
+  color: #ba55d3;
+}
+
+.titulo-logo-fim {
+  color: #f0e68c;
+}
+
+.logo {
+  width: 2.2vw;
+  height: 2.2vw;
+}
+
+.perfil-icon {
+  width: 1.5vw;
+}
+
+.titulo-principal {
+  flex-direction: column;
+}
+
+.pesquisa-input {
+  width: 20vw;
+  height: 4vh;
+}
+
+.pesquisa-botao {
+  width: 5vw;
+  height: 4.6vh;
+}
+
+.rodape {
+  border-top: solid 1px #f2f2f2;
+  display: flex;
+  justify-content: space-around;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.menu-navegacao {
+  display: flex;
+  justify-content: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  flex-direction: row;
+  align-items: center;
+}
+
+.menu-navegacao-2 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.sessao-navegacao {
+  cursor: pointer;
+}
+
+table th {
+  background-color: #d5d1d1;
+}
+
+.titulo-bem-vindo {
+  text-align: center;
+}
+
+.comentarios {
+  display: flex;
+  flex-direction: column;
+}
+
+.input-display {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.input-form {
+  height: 5vh;
+}
+
+.botao-enviar {
+  height: 2vw;
+  width: 4vw;
+}
+
+.botao-sing-up {
+  border-radius: 5px;
+  padding-left: 16px;
+  padding-right: 16px;
+}
+
+.botao-sing-in {
+  border-radius: 5px;
+  padding-left: 16px;
+  padding-right: 16px;
+}
+
+.container-principal {
+  max-width: 1440px;
+}
+
+.box {
+  border: black solid;
+  border-radius: 2px;
+  padding: 15px;
+  width: 60x;
+  display: flex;
+  flex-direction: row;
+}
+
+.link {
+  margin-top: 20px;
+}
+
+.tela-meio {
+  width: 1300px;
+}
+
+.tela-meio2 {
+  width: 1300px;
+}
+
+.imagem-codigos {
+  width: 1300px;
+}
+
+.tela-final {
+  width: 1300px;
+}
+
+.footer {
+  border: black solid;
+  border-radius: 2px;
+}
+
+.footer:hover {
+  background-color: #ba55d3;
+  transition: 2s ease-out;
+}
+
+.box-curso {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  justify-content: center;
+}
+
+.opcoes-curso {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.elemento-pai {
+  position: relative;
+}
+
+.img-garotas {
+  position: absolute;
+  left: 450px;
+}
